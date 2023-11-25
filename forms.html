@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+    <h1>text input fields</h1>
+    <form>
+        <lable for="fname">first name:</lable><br>
+
+        <input type="text" id="fname" name="fname"><br>
+
+        <lable for="lname">last name:</lable><br>
+
+        <input type="text" id="lname" name="lname">
+    </form>
+
+
+    <h2> radio button</h2>
+    <p>choose your favorite wed language</p>
+    <form>
+        <input type="radio" id="html" name="fav_language" value="html">
+        <lable for="html">HTML</lable><BR>
+
+        <input type="radio" id="css" name="fav_language" value="css">
+        <lable for="css">CSS</lable><br>
+
+        <Input type="radio" id="js" name="fav_language" value="js">
+        <label for="js">JS</label>
+    </form>
+
+
+    <h2>checkbox</h2>
+    <p>the <strong>input type ="checkbox" </strong> defines a checkbox</p>
+    <form>
+        <input type="checkbox" id="vehicle1" name="vehicle1" 
+        value="Bike">
+        <label for="vehicle1"> i have a Bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle"
+        value="Car">
+        <label for="vehicle2"> i have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle"
+        value="leptop">
+        <label for="vehicle3"> i have a leptop</label><br>
+         <br>
+         <input type="submit" value="submit">
+    </form>
+
+
+  
+    <h2>the name Attribute</h2>
+    <form action="http://127.0.0.1:5500/HTML%20TETORIAL/table.html">
+      <label for="fname">First name:</label><br>
+
+      <input type="submit" value="submit">
+    </form>
+
+
+       <p> If you click the "submit" button, the form-data 
+        will be sent to a page called"/action_page.php.
+        </p>
+        <p>
+            Notice that the value of the "First name"filed 
+            will not be submitted,because the input element
+             does not have a name attribute.
+        </p>
+</body>
+</html>
